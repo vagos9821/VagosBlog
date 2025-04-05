@@ -7,9 +7,9 @@ export default async function PostPage({ params }) {
   return (
     <div
       className="relative left-1/2 transform -translate-x-1/2 flex w-[100%]
-     divide-x max-w-5xl gap-5"
+     divide-x max-w-5xl gap-5 flex-col md:flex-row"
     >
-      <article className="p-10 max-w-[calc(100%-200px)]">
+      <article className="p-10 max-w-[calc(100%-200px)] md:w-full">
         <h2 className="font-bold text-4xl flex items-center justify-center mb-6 pr-5">
           {postData.title}
         </h2>
