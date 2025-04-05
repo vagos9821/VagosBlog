@@ -6,10 +6,10 @@ export default async function PostPage({ params }) {
 
   return (
     <div
-      className="relative left-1/2 transform -translate-x-1/2 flex w-[100vw]
+      className="relative left-1/2 transform -translate-x-1/2 flex w-[100%]
      divide-x max-w-5xl gap-5"
     >
-      <article className="p-10">
+      <article className="p-10 max-w-[calc(100%-200px)]">
         <h2 className="font-bold text-4xl flex items-center justify-center mb-6 pr-5">
           {postData.title}
         </h2>
