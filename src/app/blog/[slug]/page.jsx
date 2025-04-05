@@ -6,7 +6,7 @@ export default async function PostPage({ params }) {
 
   return (
     <div
-      className="relative left-1/2 transform -translate-x-1/2 flex 
+      className="relative left-1/2 transform -translate-x-1/2 flex w-[100vw]
      divide-x w-full max-w-5xl gap-5"
     >
       <article className="p-10">
