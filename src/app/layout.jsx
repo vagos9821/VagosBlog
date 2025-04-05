@@ -15,12 +15,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="bg-denim bg-repeat text-white">
         <Header />
-        <div className="max-w-2xl sm:mt-10 mt-4 mx-auto px-5">
-          <Hero />
-        </div>
+        {children}
+        <Footer />
       </body>
-      <BlogPromo />
-      <Footer />
     </html>
   );
 }

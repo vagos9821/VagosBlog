@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between">
+    <div className="flex flex-col md:flex-row items-center justify-between max-w-2xl sm:mt-10 mt-4 mx-auto px-5">
       <div className="relative w-fit">
         <Image
           src="/yamiop.png"

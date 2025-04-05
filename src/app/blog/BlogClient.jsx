@@ -3,7 +3,7 @@ import Card from "./Card";
 
 const BlogClient = ({ allPostsData, allTags }) => {
   return (
-    <div className="container mx-auto sm:px-4 px-0">
+    <div className="container mx-auto sm:px-4 max-w-2xl sm:mt-10 mt-4 px-5">
       <h2 className="font-bold text-3xl sm:text-5xl flex items-center justify-center">
         Blog
       </h2>

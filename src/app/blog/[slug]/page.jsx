@@ -6,8 +6,8 @@ export default async function PostPage({ params }) {
 
   return (
     <div
-      className="whitespace-pre-line	left-1/2 transform -translate-x-1/2 flex 
-    absolute divide-x w-full max-w-5xl gap-5"
+      className="relative left-1/2 transform -translate-x-1/2 flex 
+     divide-x w-full max-w-5xl gap-5"
     >
       <article className="p-10">
         <h2 className="font-bold text-4xl flex items-center justify-center mb-6 pr-5">

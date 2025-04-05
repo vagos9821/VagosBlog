@@ -4,7 +4,7 @@ import { ArrowRight, Pencil } from "lucide-react";
 
 export default function BlogPromo() {
   return (
-    <section className="relative py-12 my-12 overflow-hidden w-full">
+    <section className="relative py-12 mt-12 overflow-hidden w-full">
       <div className="absolute inset-0 bg-gradient-to-br from-[#AEC157]/15 to-[#AEC157]/5 dark:from-[#AEC157]/10 dark:to-[#1a1a1a]/80 z-0" />
 
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#AEC157]/50 to-transparent" />
