@@ -30,8 +30,8 @@ export default async function PostPage({ params }) {
               <div>
                 <h3 className="font-semibold text-lg mb-2">Tags</h3>
                 <ul className="space-y-1">
-                  {Array.isArray(tags) &&
-                    tags.map((tag, index) => (
+                  {Array.isArray(postData.tags) &&
+                    postData.tags.map((tag, index) => (
                       <li
                         key={index}
                         className="text-gray-300 flex items-center"

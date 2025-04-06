@@ -7,7 +7,7 @@ export default function Card({ data }) {
       <div className="relative shrink-0 w-24 sm:w-32">
         <img
           className="shrink-0 w-full h-40 object-cover rounded-tl-xl rounded-bl-xl bg-neutral-800"
-          src="/yami.JPEG"
+          src={data.image}
         />
       </div>
 

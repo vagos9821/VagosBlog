@@ -16,9 +16,11 @@ const BlogClient = ({ allPostsData, allTags }) => {
 
       <ul className="mt-4 divide-y divide-neutral-700">
         {allPostsData.map(
-          ({ id, slug, title, date, tags, summary, author }) => (
+          ({ id, slug, title, date, tags, summary, author, image }) => (
             <li key={id}>
-              <Card data={{ id, slug, title, date, tags, summary, author }} />
+              <Card
+                data={{ id, slug, title, date, tags, summary, author, image }}
+              />
             </li>
           )
         )}

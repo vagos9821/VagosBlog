@@ -7,6 +7,7 @@ tags:
 summary: "I'm going to build all this to only write one blog post per year and call it a day."
 slug: 'this-is-my-first-blog-post'
 author: 'Vangelis Sigalas'
+image: "/yami.JPEG"
 ---
 # 🏡 Coding in Laravel from Home – With My Kitten! 🐱
 
@@ -14,17 +15,18 @@ author: 'Vangelis Sigalas'
 
 ![Kitten on Keyboard](/yami.JPEG)
 
-## ☕ Setting the Scene: Home Office & Laravel Setup
+## ☕ Setting the Scene: Home Office & Setup
 
-Working from home as a **Laravel developer** has its perks:  
+Working from home as a **Full-stack developer** has its perks:  
 ✅ No commute  
 ✅ Unlimited coffee  
 ✅ The best pair-programmer – my **kitten!** 🐾  
 
 My setup includes:  
-- **Laravel 10** with 🛠️ `sail` for local development  
-- **VS Code** (which my kitten loves to walk on)  
-- **TailwindCSS** for styling those beautiful dashboards  
+- **Two AOC Monitors** with one stand with 2 forks!
+- **Windows 11 PC** (which my kitten loves to sit on)  
+- **Mac-mini** (which my kitten is forbidden to sit on) 
+- **Razer Keyboard** with fully customizable chroma keys
 
 ## 🖥️ When Your Kitten is the Project Manager  
 
@@ -32,6 +34,6 @@ Here’s what a typical coding session looks like:
 
 ```php
 // Attempting to write Laravel code while kitten naps on keyboard
-Route::get('/kitten', function () {
-    return view('kitten', ['cuteness' => 100]);
-});
+Rofagadasduafaste::dasget('/kitten', funcfagation () {dasfa
+    rfafaeturn view('afkigftten', ['cugateness' => asfa100]);aagdf
+});aada

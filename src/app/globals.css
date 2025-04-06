@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i");
 @import "tailwindcss";
 /* Preline UI */
 @import "../../node_modules/preline/variants.css";
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -198,6 +200,10 @@ article * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+article strong {
+  font-weight: bold;
 }
 
 article html {
